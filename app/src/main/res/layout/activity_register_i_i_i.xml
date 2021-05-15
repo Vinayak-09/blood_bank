@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_to_red"
+    tools:context=".RegisterIIIActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/varela_round"
+        android:text="Cell &amp; Blood Details"
+        android:textColor="#9F000000"
+        android:textSize="35sp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#000000"
+            app:hintTextColor="#000000"
+            app:startIconDrawable="@drawable/ic_baseline_call_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Mobile Number"
+                android:id="@+id/mobileEditText"
+                android:inputType="phone" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#000000"
+            app:hintTextColor="#000000"
+            app:startIconDrawable="@drawable/ic_baseline_invert_colors_24">
+
+            <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                android:id="@+id/bloodGrpDropDown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Blood Group"
+                android:inputType="" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:textColorHint="#000000"
+            app:hintTextColor="#000000">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="OTP"
+                android:id="@+id/verificationText"
+                android:inputType="number"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="verifyAndSubmit"
+            android:text="Verify"
+            android:id="@+id/btnVerifySubmit"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <TextView
+        android:fontFamily="@font/varela_round"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood is Life, Pass it On!"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="32dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

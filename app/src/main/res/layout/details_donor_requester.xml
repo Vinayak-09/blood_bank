@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="@drawable/square_border"
+    android:padding="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginBottom="10dp"
+    android:gravity="center"
+    android:layout_height="120dp">
+
+    <ImageView
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
+        android:layout_width="60dp"
+        android:id="@+id/bloodImg"
+        android:layout_height="60dp"
+        android:src="@drawable/blood_drop"/>
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_toEndOf="@id/bloodImg"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/varela_round"
+            android:textSize="17sp"
+            android:id="@+id/detailFullName"
+            android:singleLine="true"
+            android:maxWidth="120dp"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+            android:contextClickable="true"
+            android:scrollHorizontally="true"
+            android:freezesText="true"
+            android:text="Vinayak Patil"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/varela_round"
+            android:id="@+id/detailBloodGroup"
+            android:textSize="17sp"
+            android:maxWidth="120dp"
+            android:singleLine="true"
+            android:text="O+"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/varela_round"
+            android:textSize="17sp"
+            android:id="@+id/detailState"
+            android:maxWidth="120dp"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+            android:contextClickable="true"
+            android:scrollHorizontally="true"
+            android:freezesText="true"
+            android:text="Maharashtra"
+            android:singleLine="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/varela_round"
+            android:textSize="17sp"
+            android:id="@+id/detailTehsil"
+            android:singleLine="true"
+            android:maxWidth="120dp"
+            android:text="Panhala"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@id/icons"
+        android:layout_toEndOf="@id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="bottom"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/varela_round"
+            android:textSize="17sp"
+            android:id="@+id/detailDistrict"
+            android:maxWidth="110dp"
+            android:singleLine="true"
+            android:text="Kolhapur"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/varela_round"
+            android:textSize="17sp"
+            android:id="@+id/detailVillage"
+            android:maxWidth="110dp"
+            android:singleLine="true"
+            android:tooltipText="Tooltip"
+            android:text="Kodoli"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginStart="10dp"
+        android:id="@+id/icons"
+        android:gravity="right"
+        >
+
+
+       <ImageView
+           android:layout_width="40dp"
+           android:layout_height="match_parent"
+           android:id="@+id/share"
+           android:tooltipText="Share"
+           android:src="@drawable/ic_baseline_share_24"/>
+
+        <ImageView
+            android:tooltipText="Call"
+            android:layout_width="40dp"
+            android:id="@+id/call"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_call_24"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

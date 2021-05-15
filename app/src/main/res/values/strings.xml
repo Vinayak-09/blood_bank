@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">BloodBankByVinayak</string>
+
+    <string name="real_time_db_firebase">https://bloodbankbyvinayak-default-rtdb.firebaseio.com/</string>
+
+    <array name="blood_groups">
+        <item>A+</item>
+        <item>B+</item>
+        <item>O+</item>
+        <item>AB+</item>
+        <item>A-</item>
+        <item>B-</item>
+        <item>O-</item>
+        <item>AB-</item>
+    </array>
+
+    <array name="states">
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujrat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu &amp; Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajsthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Tripura</item>
+        <item>Uttarakhand</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+        <item>Andaman &amp; Nicobar</item>
+        <item>Chandigarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Damn and Diu</item>
+        <item>Delhi</item>
+        <item>Lakshadweep</item>
+        <item>Puducherry</item>
+    </array>
+
+
+    <array name="Districts_Andhra_Pradesh">
+        <item>Anantapur</item>
+        <item>Chittoor</item>
+        <item>East Godavari</item>
+        <item>Guntur</item>
+        <item>Krishna</item>
+        <item>Kurnool</item>
+        <item>Prakasam</item>
+        <item>Srikakulam</item>
+        <item>Sri Potti Sriramulu Nellore</item>
+        <item>Visakhapatnam</item>
+        <item>Vizianagaram</item>
+        <item>West Godavari</item>
+        <item>YSR District</item>
+        <item></item>
+    </array>
+
+    <array name="Districs_Arunachal_Pradesh">
+        <item>Anjaw</item>
+        <item>Changlang</item>
+        <item>Dibang Valley</item>
+        <item>East Kameng</item>
+        <item>East Siang</item>
+        <item>Kamle</item>
+        <item>Kra Daadi</item>
+        <item>Kurung Kumey</item>
+        <item>Lepa Rada</item>
+        <item>Lohit</item>
+        <item>Longding</item>
+        <item>Lower Dibang Valley</item>
+        <item>Lower Siang</item>
+        <item>Lower Subansiri</item>
+        <item>Namsai</item>
+        <item>Pakke Kessang</item>
+        <item>Papum Pare</item>
+        <item>Shi Yomi</item>
+        <item>Siang</item>
+        <item>Tawang</item>
+        <item>Tirap</item>
+        <item>Upper Siang</item>
+        <item>Upper Subansiri</item>
+        <item>West Kameng</item>
+        <item>West Siang</item>
+    </array>
+
+    <array name="Districts_Maharashtra">
+        <item>Ahmednagar</item>
+        <item>Akola</item>
+        <item>Amravati</item>
+        <item>Aurangabad</item>
+        <item>Beed</item>
+        <item>Bhandara</item>
+        <item>Buldhana</item>
+        <item>Chandrapur</item>
+        <item>Dhule</item>
+        <item>Gadchiroli</item>
+        <item>Gondia</item>
+        <item>Hingoli</item>
+        <item>Jalgaon</item>
+        <item>Jalna</item>
+        <item>Kolhapur</item>
+        <item>Latur</item>
+        <item>Mumbai City</item>
+        <item>Mumbai Subarban</item>
+        <item>Nagpur</item>
+        <item>Nanded</item>
+        <item>Nandurbar</item>
+        <item>Nashik</item>
+        <item>Osmanabad</item>
+        <item>Palghar</item>
+        <item>Parbhani</item>
+        <item>Pune</item>
+        <item>Raigad</item>
+        <item>Ratnagiri</item>
+        <item>Sangli</item>
+        <item>Satara</item>
+        <item>Sindhudurg</item>
+        <item>Solapur</item>
+        <item>Thane</item>
+        <item>Wardha</item>
+        <item>Washim</item>
+        <item>Yavatmal</item>
+    </array>
+
+</resources>
+
+

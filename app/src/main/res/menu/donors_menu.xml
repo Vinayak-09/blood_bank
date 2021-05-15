@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Visible As Donor"
+        android:checkable="true"
+        android:id="@+id/visibleDonors"/>
+
+
+    <item
+        android:id="@+id/changePass"
+        android:title="Change Password" />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout" />
+</menu>
