@@ -27,16 +27,16 @@
 - Install it and Donate blood.
 
 ### FAQs
-1. Phone Number Authentication not working.
---> Set Your Apps SHA-1 in the Firebase Console. Make sure you enabled Phone Number Sign-In Method.
-2. App is crashing. What to do?
--->Send log on telegram [@Vinayak](http://t.me/vinayak_09). Will try to resolve.
-3. Other Questions.
--->Feel free to Connect with me on Telegram [@vinayak_09](http://t.me/vinayak_09).
+1. Phone Number Authentication not working.<br>
+    -->Set Your Apps SHA-1 in the Firebase Console. Make sure you enabled Phone Number Sign-In Method.
+2. App is crashing. What to do?<br>
+    -->Send log on telegram [@Vinayak](http://t.me/vinayak_09). Will try to resolve.
+3. Other Questions.<br>
+    -->Feel free to Connect with me on Telegram [@vinayak_09](http://t.me/vinayak_09).
 
 
 ------------
 
-Youtube Tutorial on How to Build This Project.
-Link - Soon
+Full Project demonstration Youtube :<br>
+Link - https://youtu.be/q0CzIIks4ng
 
