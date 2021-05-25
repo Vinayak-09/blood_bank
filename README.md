@@ -34,6 +34,9 @@
 3. Other Questions.<br>
     -->Feel free to Connect with me on Telegram [@vinayak_09](http://t.me/vinayak_09).
 
+#### PS:NOTE
+- You need to add your google-services.json to build and run this app.
+- Or You can download [Blood Bank App Demo](https://drive.google.com/file/d/1GtHpXUbQXo-aK5wZVSAJqLRcYMhABBLv/view?usp=sharing)
 
 ------------
 
